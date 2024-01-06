@@ -1,0 +1,20 @@
+.quadrado {
+  --tamanho: 2rem;
+  --tamanhoCalculado: var(--tamanho);
+
+  border: 2px solid orange;
+  width: var(--tamanhoCalculado);
+  height: var(--tamanhoCalculado);
+  border-radius: 0;
+  background: none;
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.quadradoGrande {
+  --tamanhoCalculado: calc(var(--tamanho) * 2);
+}

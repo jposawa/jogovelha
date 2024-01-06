@@ -1,0 +1,9 @@
+.tabuleiro {
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 8rem;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
